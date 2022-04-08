@@ -1,0 +1,28 @@
+package testpurpose;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class Parent {
+	
+	@BeforeSuite
+	public void beforesuitetest() {
+		System.out.println("befor suite");
+	}
+	
+	@AfterSuite
+	public void aftersuitetest() {
+		System.out.println("After suite");
+	}
+	
+	Parent(){}
+	@Test
+	public static void newtest() {
+		System.out.println("test parent");
+	}
+	public void newtestone() {
+		System.out.println("test two parent");
+	}
+
+}

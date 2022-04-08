@@ -1,0 +1,39 @@
+package StringConversion;
+
+import java.util.ArrayList;
+
+public class Arraylisttest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int count = 0;    
+		String str = "He said, 'The mailman loves you.' I heard it with my own ears.";    
+		ArrayList al=new ArrayList();
+		al.add("!");
+		al.add("'\'");
+		al.add(",");
+		al.add(";");
+		al.add("?");
+		al.add(":");
+		
+		for(int i=0;i<str.length();i++) {
+			if(str.charAt(i)==al[i]) {
+				System.out.println(str.charAt(i));
+			}
+
+		for (int i = 0; i < str.length(); i++)   
+		{    
+		//Checks whether given character is punctuation mark    
+		if(str.charAt(i) == '!' || str.charAt(i) == ',' || str.charAt(i) == ';' || str.charAt(i) == '.' ||  str.charAt(i) == '?' || str.charAt(i) == '-' ||    
+		str.charAt(i) == '\'' || str.charAt(i) == '\"' || str.charAt(i) == ':')   
+		{    
+		count++;    
+		}    
+		}    
+		System.out.println("The number of punctuations exists in the string is: " +count);    
+		}    
+
+	}
+
+}

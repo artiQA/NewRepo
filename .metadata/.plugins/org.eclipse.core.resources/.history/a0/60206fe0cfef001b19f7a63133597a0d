@@ -1,0 +1,11 @@
+package PackageTest;
+
+import org.testng.annotations.Test;
+
+public class testingmaven {
+  @Test
+  public void f() {
+	  
+	  System.out.println("-----new--------");
+  }
+}

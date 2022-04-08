@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-28T13:06:08 IST" name="Default suite" finished-at="2021-07-28T13:06:10 IST" duration-ms="2057">
+    <groups>
+    </groups>
+    <test started-at="2021-07-28T13:06:08 IST" name="Default test" finished-at="2021-07-28T13:06:10 IST" duration-ms="2057">
+      <class name="Testing.VerifyLogin">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:Testing.VerifyLogin@1cbb87f3]" started-at="2021-07-28T13:06:03 IST" name="Initialize" finished-at="2021-07-28T13:06:08 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Testing()[pri:0, instance:Testing.VerifyLogin@1cbb87f3]" started-at="2021-07-28T13:06:08 IST" name="Testing" finished-at="2021-07-28T13:06:10 IST" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testing -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Testing.VerifyLogin@1cbb87f3]" started-at="2021-07-28T13:06:10 IST" name="TeardownTest" finished-at="2021-07-28T13:06:11 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Testing.VerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+package StringConversion;
+
+public class LinkedHashsetToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str="Advika";
+		
+		LinkedHashset set=new LinkedHashset();
+		
+
+	}
+
+}

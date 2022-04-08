@@ -1,0 +1,11 @@
+package Java_basic_package;
+
+public class Test {
+	static int i;
+
+	public static void main(String args[]) {
+		
+		i = 100;
+		System.out.println(i);
+		}
+	}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/arti.shinde/eclipse-workspace/TestDebugging/src/test/java/TestAPI/TestDebugging/test.java"/>
+			<item value="/Users/arti.shinde/eclipse-workspace/TestDebugging"/>
+			<item value="/Users/arti.shinde/eclipse-workspace/APIDemo/src/Basics/AddMethod.java"/>
+			<item value="/Users/arti.shinde/eclipse-workspace/BasicJava/src/BasicJava/repeatedMainMet.java"/>
+			<item value="/Users/arti.shinde/eclipse-workspace"/>
+			<item value="/Users/arti.shinde/eclipse-workspace/Test"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="POMFramework.POM"/>
+			<item value="screenshot.scrshot"/>
+		</list>
+		<list key="groupId">
+			<item value="POMFramework"/>
+			<item value="screenshot"/>
+		</list>
+		<list key="artifactId">
+			<item value="POM"/>
+			<item value="scrshot"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="APIDemo"/>
+			<item value="WeCareTest"/>
+			<item value="WeCareGrpId"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="APIDemoTest"/>
+			<item value="APIDemo"/>
+			<item value="WeCareTest"/>
+			<item value="WeCareArtifact"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.0.0"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="APIDemo"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="APIDemo"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

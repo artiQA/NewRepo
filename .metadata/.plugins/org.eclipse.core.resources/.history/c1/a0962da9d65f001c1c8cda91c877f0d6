@@ -1,0 +1,20 @@
+package StringConversion;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHashsetToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str="Advika";
+		
+		LinkedHashSet set=new LinkedHashSet();
+		for(int i=0;i<str.length();i++) {
+			set.add(str.charAt(i));
+			
+		}
+
+	}
+
+}
